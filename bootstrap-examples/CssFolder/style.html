@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+  <style>
+       ul{
+         list-style: none;
+         width:200px;
+
+       }
+
+       /* li:first-child{
+         color: red;
+       }
+       li:last-child{
+         color: red;
+       } */
+
+       li:nth-child(even){
+        color:red;
+        background-color: yellow;
+        padding: 10px;
+       }
+
+       li:nth-child(odd){
+        color:red;
+        background-color: rgb(255, 140, 0);
+        padding: 10px;
+       }
+
+
+       .color{
+         border:2px double red;
+         color:red;
+         padding:10px;
+       }
+        h1{
+            color:initial;
+            border:inherit;
+            padding: inherit;
+        }
+        h1{
+            padding: unset;
+        }
+
+         h2{
+            all:inherit;
+         }
+
+  </style>
+
+
+</head>
+<body>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>REACT</li>
+        <li>nODE</li>
+        <li>nODE</li>
+        <li>SHAMW</li>
+        <li>RAM</li>
+      </ul>
+
+    <div class="color">
+         <p>container text</p>
+        <h1>Welcome</h1>
+        <h2>CSS</h2>
+    </div>
+</body>
+</html>
